@@ -34,6 +34,12 @@ You can also invoke any skill explicitly with `/skill-name`.
 | `debugging-wizard` | Systematic bug isolation via stack trace analysis, log correlation, and hypothesis-driven debugging |
 | `spec-miner` | Reverse-engineer specs from legacy/undocumented codebases |
 
+### Workflow & Methodology
+
+| Skill | Description |
+|-------|-------------|
+| `build` | Full development methodology (brainstorm → plan → TDD → review → verify → finish) for significant features and new projects. Invoke with `/build`. |
+
 ### Architecture & Planning
 
 | Skill | Description |
