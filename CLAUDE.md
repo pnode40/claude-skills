@@ -1,5 +1,36 @@
 # Claude Skills — Development Methodology
 
+## Design Methodology Skills
+
+The design methodology is a structured workflow for significant software work. It is composed of
+one orchestrating skill and a set of domain-expert skills it invokes:
+
+### Orchestrator
+
+| Skill | Role |
+|-------|------|
+| `build` | Sequences the full methodology: brainstorm → plan → TDD implementation → code review → verify → finish branch. Invoke with `/build`. |
+
+### Domain Experts (invoked by `/build` during Phase 3)
+
+| Skill | When invoked |
+|-------|-------------|
+| `react-expert` | React components, hooks, Server Components, Next.js |
+| `typescript-pro` | TypeScript type system, generics, branded types |
+| `fullstack-guardian` | Full-stack features with auth, validation, or security concerns |
+| `ui-ux-pro-max` | UI layouts, interaction design, component patterns |
+| `ui-styling` | shadcn/ui, Radix UI, Tailwind CSS, theming |
+| `webapp-testing` | Playwright-based UI verification and test automation |
+| `debugging-wizard` | Bugs encountered mid-implementation |
+
+### Supporting Methodology Skills
+
+| Skill | When used |
+|-------|-----------|
+| `planning-with-files` | Complex multi-step work requiring persistent task tracking across sessions |
+
+---
+
 ## When to suggest /build
 
 When the user describes work that is clearly significant in scope — a new feature, a new project,
